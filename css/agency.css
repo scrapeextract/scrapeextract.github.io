@@ -302,6 +302,25 @@ header .intro-text .intro-heading {
         padding-bottom: 200px;
     }
 
+
+
+
+.media-flex {
+    position: relative;
+    height: 0px;
+}
+
+.media-flex .gfyitem > div,
+.media-flex .gfyitem .gfyPreLoadCanvas,
+.media-flex .gfyitem .gfyVid,
+.media-flex .gfyitem  .gfyGif {
+    position: absolute !important;
+    top: 0; right: 0; bottom: 0; left: 0;
+    width: 100% !important;
+    height: 100% !important;
+}
+
+
     header .intro-text .intro-lead-in {
         margin-bottom: 25px;
         font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
